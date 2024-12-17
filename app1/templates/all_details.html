@@ -1,0 +1,19 @@
+{% extends 'temp_files/nav.html' %}
+
+{% block content %}
+<section id="index_section">
+        
+    <article id="form">
+        <div id="logo">TO DO LIST</div>
+
+        <ol id="details_list">
+            <h1>List of Tasks</h1>
+            {% for row in df%}
+            <li><a href="{% url 'details' row.id %}">{{row.title}}</a></li>
+            {% endfor %}
+        </ol>
+
+    </article>
+    </form>
+</section>
+{% endblock content %}

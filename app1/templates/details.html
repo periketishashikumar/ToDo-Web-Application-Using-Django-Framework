@@ -1,0 +1,22 @@
+{% extends 'temp_files/nav.html' %}
+
+{% block content %}
+<section id="index_section">
+        
+    <article id="form">
+        <div id="logo">TO DO LIST</div>
+
+        <ol id="details_list">
+            <h1>List of Tasks</h1>
+            <li><a href="{% url 'details' row.id %}">{{row.title}}</a></li>
+            <li><b>Description : </b>{{row.description}}</li>
+            <form action="" method="post">
+                {% csrf_token %}
+            <li><h3><a href="{% url 'edit' row.id %}">EDIT</a> <button type="submit">Mark as Read</button></h3></li>
+        </form>
+        </ol>
+
+    </article>
+    </form>
+</section>
+{% endblock content %}

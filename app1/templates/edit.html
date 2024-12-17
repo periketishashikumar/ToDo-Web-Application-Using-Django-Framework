@@ -1,0 +1,20 @@
+{% extends 'temp_files/nav.html' %}
+{% block content %}
+<section id="index_section">
+        
+    <form action="" method="post">
+    <article id="form">
+        <div id="logo">TO DO LIST</div>
+       <div>
+        {% csrf_token %}
+        <label for="">TASK</label>
+        <input type="text" placeholder="add the task your going to do..!" name="title" required value="{{df.title}}"> <br> <br>
+        <label for="" >DESCRIPTION</label>
+        <input type="text" name="description" required value="{{df.description}}"> <br> <br>
+    </div>
+        <button type="submit" id="submit">EDIT</button>
+       
+    </article>
+    </form>
+</section>
+{% endblock content %}
