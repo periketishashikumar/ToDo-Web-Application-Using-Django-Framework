@@ -28,4 +28,4 @@ Prevents accidental task removal.
 
 <h2>Phase 4:</h2> Search Functionality
 A search field in the navigation bar allows users to search for tasks efficiently.
-Filters results based on the entered keywords, simplifying task management.
+Filters results based on the entered keywords, simplifying task management
