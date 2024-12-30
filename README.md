@@ -1,5 +1,5 @@
 # ToDo-Web-Application-Using-Django-Framework
-An intuitive to-do list app built with Django to help you organize tasks efficiently and stay on top of your schedule.
+An intuitive to-do list app built with Django to help you organize tasks efficiently and stay on top of your schedule. 
 # Phases of My Django To-Do List Project
 <h2>Phase 1:</h2> Home Page - Creating a New To-Do List
 A simple and clean interface to create new to-do lists.
